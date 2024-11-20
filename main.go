@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
 	rl "github.com/gen2brain/raylib-go/raylib"
-	"runtime"
 	"strconv"
 	"time"
 )
@@ -15,7 +13,7 @@ const (
 
 func main() {
 
-	go func() {
+	/*go func() {
 		for {
 			var m runtime.MemStats
 			runtime.ReadMemStats(&m)
@@ -23,7 +21,7 @@ func main() {
 			fmt.Printf("TotalAlloc: %d\nHeapAlloc: %d\nHeapInuse: %d\n\n\n", m.TotalAlloc, m.HeapAlloc, m.HeapInuse)
 			time.Sleep(1 * time.Second)
 		}
-	}()
+	}()*/
 
 	var screenWidth int32 = 1280
 	var screenHeight int32 = 800
